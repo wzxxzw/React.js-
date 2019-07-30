@@ -1,0 +1,17 @@
+.location{
+    padding-top: .24rem;
+    background:#00a7ff;
+    .sub{
+        height: .62rem;
+        text-indent: 0.5em;
+        span{
+            display: inline-block;
+            color:#fff;
+            font-size: .35rem;
+        }
+        .jiantou{
+            width: .20rem;
+            height: .20rem;
+        }
+    }
+}

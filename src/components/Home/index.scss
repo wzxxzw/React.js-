@@ -1,0 +1,303 @@
+.app{
+    // height:1500rem;
+    // overflow: visible;
+}
+// .location{
+//     padding-top: .24rem;
+//     background:#00a7ff;
+//     .sub{
+//         height: .62rem;
+//         text-indent: 0.5em;
+//         span{
+//             display: inline-block;
+//             color:#fff;
+//             font-size: .35rem;
+//         }
+//         .jiantou{
+//             width: .20rem;
+//             height: .20rem;
+//         }
+//     }
+// }
+
+// 吸顶盒 
+// .fixtop{
+//     //sticky没有纳入主流浏览器
+//     // 让他的父级有滚动条
+//     position:sticky;
+//     top: 0;
+//     bottom: 0;
+//     z-index: 998;
+//     height: 1.06rem;
+//     background:#00a7ff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     a{
+//         display: inline-block;
+//         width: 6.94rem;
+//         height: .72rem;
+//         background: #fff;
+//         display: inherit;
+//         justify-content: inherit;
+//         align-items: inherit;
+//         color:#999;
+//         span{
+//             margin-left: .1rem;
+//             font-size: .26rem;
+//         }
+//     }
+// }
+
+//分类导航
+// .category{
+//    width:100%;
+//    height:3.2rem;
+//    overflow: hidden;
+//    text-align: center;
+//    padding-top:.25rem;
+//    .item{
+//     display: flex !important;
+//     flex-wrap: wrap!important;
+//     justify-content: center;
+//     align-items: center;
+//    }
+//     a{
+//         width:20%;
+//         height:1.35rem;
+//         color: #666;
+//         font-size: .23rem;
+//         img{
+//             margin:0 auto;
+//             width:.9rem; 
+//             height:.9rem;
+//         }
+//     }
+// }
+
+//抢购
+// .scarebuy{
+//     padding:0 .2rem;
+//     height:2.79rem;
+//     display: flex;
+//     justify-content: space-between;
+//     a{
+//         img{
+//             width: 3.52rem;
+//             height: 2.79rem;
+//         }
+//     }
+// }
+
+//促销
+// .promotion{
+//     height: 1.76rem;
+//     margin-top: .11rem;
+//     .item{
+//         width: 100%;
+//         height: 1.76rem;
+//         img{
+//             width:100%;
+//             height: 1.76rem;
+//         }
+//     }
+// }
+
+//商家推荐
+// .recommend{
+//     width: 3.12rem;
+//     height: .72rem;
+//     margin:0.16rem auto;
+//     img{
+//         width: 100%;
+//         height: 100%;
+//     }
+// }
+// .menu{
+//     position: sticky;
+//     top: 1.06rem;
+//     bottom:0;
+//     z-index: 998;
+//     background: #fff;
+//     ul{  
+//         width:100%;
+//         height: .8rem;
+//         display: flex;
+//         line-height: .8rem;
+//         li{
+//             flex:1;
+//             text-align: center;
+//             height:.8rem;
+//         }
+//         .jiantou{
+//             font-size: 12px;
+//         }
+//     }
+// }
+
+// /*商品列表*/
+// .goodsList{
+
+//     ul {
+      
+//       li{
+//         padding: 0.28rem 0 ;
+
+//         border-top: 1px solid #ddd;
+//         display: flex;
+//         justify-content: space-between;
+//         /*商家图片*/
+//         .logo{
+//           width: 1.3rem;
+//           height: 1.3rem;
+//           img{
+//             width: 100%;
+//             height: 100%;
+//           }
+//         }
+//         /*商家详情*/
+//         .goodsInfo{
+//           width: calc( 100% - 1.45rem );
+//           min-height: 3.0rem;
+//           overflow: hidden;
+//           &>div{
+//             margin-bottom: .15rem;
+//           }
+
+//           .title{
+//             font-weight: bold;
+//             color: #333;
+//           }
+
+//           /*评分*/
+//           .star{
+//             height: .43rem;
+//             display: flex;
+//             font-size: 0.14rem;
+//             color: #666;
+//             display: flex !important;
+//             justify-content: space-between;
+//             align-items: center;
+//             overflow: hidden;
+//             .delivery{
+//               color: #fff;
+//               border-radius: 0.05rem;
+//               font-size: 0.2rem;
+//               background: #009bff;
+//             }
+//             .ant-rate{
+//               width: 1.20rem !important;
+//               height: .43rem !important;
+//               display: inherit !important;
+//               justify-content: inherit;
+//               align-items: inherit;
+//               overflow: hidden;
+//               padding-bottom: 0.43rem;
+//               li{
+//                 flex: 1 !important;
+//                 font-size: 0.12rem;
+//                 height: 100% !important;
+//                 line-height: 0.43rem;
+//                 margin: 0 !important;
+
+//               }
+//             }
+//             span{
+//               margin: 0 0.1rem;
+//             }
+//           }
+
+//           .moneylimit{
+//             display: flex;
+//             justify-content: space-between;
+//             font-size: 0.12rem;
+//             span{
+//               padding: 0 0.1rem;
+//             }
+//             .left{
+//               color: #666;
+//               .startPrice{
+//                 position: relative;
+//                 &::after{
+//                   position: absolute;
+//                   right: 0;
+//                   top:0;
+//                   bottom: 0;
+//                   margin: auto;
+//                   content: '';
+//                   width: 1px;
+//                   height: 0.2rem;
+//                   background: #ddd;
+
+//                 }
+//               }
+//             }
+//             .right{
+//               color: #999;
+//             }
+//           }
+
+//           .type{
+//             font-size: 0.14rem;
+//           }
+
+//           .discount{
+//             padding-top: 0.15rem;
+//             font-size: 0.12rem !important;
+//             border-top: 1px dashed #ddd;
+//             span:first-child{
+//               width: 0.29rem;
+//               height: 0.29rem;
+//               line-height: 0.29rem;
+//               text-align: center;
+//               border-radius: .03rem;
+//               background: rgb(112, 188, 70);
+//               margin: 0 0.1rem;
+//               color: #fff;
+//             }
+//             .first{
+
+//               span:first-child{
+//                 width: 0.29rem;
+//                 height: 0.29rem;
+//                 line-height: 0.29rem;
+//                 text-align: center;
+//                 border-radius: .03rem;
+//                 background: rgb(112, 188, 70);
+//                 margin: 0 0.1rem;
+//                 color: #fff;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+// 底部
+// .footer{
+//     position:fixed;
+//     z-index: 998;
+//     bottom:0;
+//     left:0;
+//     right:0;
+//     height:1.0rem;
+//     box-shadow: 0 -1px 2px rgba(0,0,0,0.1);
+//     background:#fff;
+//     display: flex;
+//     a{
+//         flex:1;
+//         display: inherit;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//         color: #333;
+//         font-size: 0.2rem;
+//         i{
+//             font-size: 0.35rem;
+//           }
+//     }
+//     .active{
+//         color: #0089dc;
+//     }
+// }
